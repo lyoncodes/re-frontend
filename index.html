@@ -30,12 +30,48 @@
             <a class="nav-link" href="#">Clients</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Connect</a>
+            <a class="nav-link" href="#form" data-toggle="collapse" data-target="#form">Connect</a>
           </li>                                    
       </ul>
     </div>  
   </div>
 </nav>
+<div id="form" class="collapse">
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName">Name</label>
+      <input type="text" class="form-control" id="inputName" placeholder="Name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail">Email</label>
+      <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputPhone">Phone</label>
+      <input type="tel" class="form-control" id="inputPhone" placeholder="360-455-4140">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">I'm Looking to</label>
+      <select id="inputState" class="form-control">
+        <option selected>Buy</option>
+        <option>Sell</option>
+        <option>Rent</option>
+        <option>Chat</option>
+      </select>
+    </div>
+  </div>  
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputNote">Note</label>
+      <input type="text" class="form-control" id="inputNote">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" id="form-btn">Submit</button>
+</form>
+</div>
     
 <!--- Image Slider -->
 <div id="slides" class="carousel slide" data-ride="carousel">
@@ -46,23 +82,41 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/assets/img/background.png">
+      <img src="/assets/img/background2.png">
       <div class="carousel-caption">
         <h1 class="display-2">Ben Gaubert</h1>
         <h3>Real Estate Services</h3>
         <button type="button" class="btn btn-outline-light btn-lg">
-          CONNECT
+          Sales
         </button>
         <button type="button" class="btn btn-primary btn-lg">
-          LISTINGS
+          Listings
         </button>        
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/assets/img/background2.png">
+      <img src="/assets/img/background.png">
+      <div class="carousel-caption">
+          <h1 class="display-2">Exceptional Location</h1>
+          <h3>3 Bed, 2 Bath</h3>
+          <button type="button" class="btn btn-outline-light btn-lg">
+            $269,000
+          </button>
+          <button type="button" class="btn btn-primary btn-lg">
+            Appointment
+          </button>        
+        </div>
     </div>
     <div class="carousel-item">
       <img src="/assets/img/background3.png">
+      <div class="carousel-caption">
+          <h1 class="display-2">Just Sold!</h1>
+          <h3>Fully Remodeled Rambler</h3>
+          <h3>$320,000</h3>
+          <button type="button" class="btn btn-primary btn-lg">
+              View Listing
+          </button>                 
+        </div>
     </div>        
   </div>
 </div>
@@ -72,7 +126,7 @@
   <div class="row jumbotron">
     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
       <p class="lead">
-          Real estate was my first passion, inspired by my parent's careers in building and selling homes. My childhood memories of construction sites and open houses made brokerage services an easy choice for my life's work. I offer clients honesty and integrity, providing top-notch customer and market knowledge. I'm excited to work with the community of Thurston County to make your home buying and selling process the best it can be.
+          I love calling Olympia home. The region's world renowned natural beauty and friendly community make a great place to call home. If you're looking to buy or sell property in the area I can help guide the process with top-notch customer service and market knowledge. I take pride in offering my clients transparency and communication every step of the way.
       </p>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
@@ -94,7 +148,7 @@
     <hr>
     <div class="col-12">
       <p class="lead">
-        I make buying and selling homes easy, working to achieve my clients' goals with an unmatched attention to detail. Whether you're looking to buy or sell your home, I'll provide the service and expertise to guide the process.
+        I work to achieve my clients' goals with an unmatched attention to detail. Whether you're looking to buy or sell your home, I'll provide the service and expertise to guide the process.
       </p>
     </div>
   </div>
@@ -127,7 +181,7 @@
   <div class="row padding">
     <div class="col-lg-6">
       <h2>Let Me Help...</h2>
-      <p>My service extends beyond listing and selling homes. I'm an experienced property manager with over 5 years experience helping owners rent their assets.</p>
+      <p>My service extends beyond listing and selling homes. I have over 5 years experience helping property owners manage their assets.</p>
       <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
       <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
       <br>
@@ -137,53 +191,180 @@
     <img src="/assets/img/desk.png" class="img-fluid">
   </div>
 </div>
+</div>
 <hr class="my-4">
-
 <!--- Fixed background -->
 <figure>
   <div class="fixed-wrap">
-    <div id="fixed">
-
-    </div>
+    <div id="fixed"></div>
   </div>
 </figure>
 
-<!--- Emoji Section -->
-<button class="fun" data-toggle="collapse" data-target="#emoji">
-  Sample Drop Down
+<!--- Form Section -->
+<button class="fun" data-toggle="collapse" data-target="#form2">
+  It's Time to Talk
 </button>
-<div id="emoji" class="collapse">
-  <div class="container-fluid padding">
-    <div class="row text-center">
-      <div class="col-sm-6 col-md-3">
-        <p>SAMPLE</p>
-      </div>
-      <div class="col-sm-6 col-md-3">
-          <p>SAMPLE</p>
-      </div>
-      <div class="col-sm-6 col-md-3">
-          <p>SAMPLE</p>
-      </div>
-      <div class="col-sm-6 col-md-3">
-          <p>SAMPLE</p>
-      </div>
+<div id="form2" class="collapse">
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName">Name</label>
+      <input type="text" class="form-control" id="inputName" placeholder="Name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail">Email</label>
+      <input type="text" class="form-control" id="inputEmail" placeholder="Email">
     </div>
   </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputPhone">Phone</label>
+      <input type="tel" class="form-control" id="inputPhone" placeholder="360-455-4140">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">I'm Looking to</label>
+      <select id="inputState" class="form-control">
+        <option selected>Buy</option>
+        <option>Sell</option>
+        <option>Rent</option>
+        <option>Chat</option>
+      </select>
+    </div>
+  </div>  
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputNote">Note</label>
+      <input type="text" class="form-control" id="inputNote">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" id="form-btn">Submit</button>
+</form>
 </div>
   
 <!--- Meet the team -->
-
+<div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <h1 class="display-4">Active Listings</h1>
+    </div>
+    <hr>
+  </div>
+</div>
 
 <!--- Cards -->
-
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="/assets/img/house.png">
+        <div class="card-body">
+          <h4 class="card-title">Address</h4>
+          <p class="card-text">
+            Beautiful Listing with Mid Century Flair. 6000 square foot villa.
+          </p>
+          <a href="#" class="btn btn-outline-secondary">View Listing</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="/assets/img/house.png">
+        <div class="card-body">
+          <h4 class="card-title">Address</h4>
+          <p class="card-text">
+            25 waterfront acres surrounded by old growth.
+          </p>
+          <a href="#" class="btn btn-outline-secondary">View Listing</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="/assets/img/house.png">
+        <div class="card-body">
+          <h4 class="card-title">Address</h4>
+          <p class="card-text">
+            Beautiful Listing with Mid Century Flair. Large garage
+          </p>
+          <a href="#" class="btn btn-outline-secondary">View Listing</a>
+        </div>
+      </div>
+    </div>        
+  </div>
+</div>
 
 <!--- Two Column Section -->
-
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-lg-6">
+      <h2>Let Me Help...</h2>
+      <p>My service extends beyond listing and selling homes. I'm an experienced property manager with over 5 years experience helping owners rent their assets.</p>
+      <p>I'm always curious about what's happening around Thurston County. My consultation is always a phone call away, free of charge.</p>
+      <br>
+  </div>
+  <div class=" col-lg-6">
+    <img src="/assets/img/bootstrap2.png" class="img-fluid">
+  </div>
+</div>
+</div>
 
 <!--- Connect -->
-
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-12">
+      <h2>Connect</h2>
+    </div>
+    <div class="col-12 social padding">
+      <a href="#">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-twitter"></i>
+      </a>      
+      <a href="#">
+        <i class="fab fa-instagram"></i>
+      </a>      
+      <a href="#">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </div>
+  </div>
+</div>
 
 <!--- Footer -->
+<div class="container-fluid padding">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <img src="/assets/img/logo.png">
+      <hr class="light">
+      <p>phone</p>
+      <p>email</p>
+      <p>address</p>
+      <p>address 2</p>
+    </div>
+    <div class="col-md-4">
+      <hr class="light">
+      <h5>Open Houses</h5>
+      <hr class="light">
+      <p>Monday: 9am - 5pm</p>
+      <p>Monday: 9am - 5pm</p>
+      <p>Monday: 9am - 5pm</p>
+    </div>
+    <div class="col-md-4">
+      <hr class="light">
+      <h5>Fair Housing</h5>
+      <hr class="light">
+      <p>Logo Logo Logo</p>
+      <p>Logo Logo Logo</p>
+      <p>Logo Logo Logo</p>
+    </div>
+    <div class="col-12">
+      <hr class="light">
+      <h5>&copy; Made By Michael</h5>
+    </div>
+  </div>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
