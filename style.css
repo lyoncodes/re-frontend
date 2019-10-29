@@ -1,15 +1,137 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #222222;
+}
 
+form{
+  padding-bottom: 2rem;
+}
 
+.navbar{
+  padding: .8rem;;
+}
+.navbar-nav li{
+  padding-right: 1.4rem;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
 
+/* carousel */
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
 
+/* carousel captions */
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+/* button */
+.btn-primary{
+  background-color: rgb(13, 95, 58);
+  border: 1px solid white;
+}
+.btn-primary:hover{
+  background-color: white;
+  border: 1px solid white;
+  color: #000;
+}
+#form-btn{
+  margin-left: 1rem;
+}
 
+/* jumbotron */
+.jumbotron{
+  padding: 1rem;
+  border-radius: 0;
+}
 
+/* welcome section */
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
 
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
 
+/* icons */
 
+.fa-dollar-sign{
+  color: #e54d26;
+}
+.fa-chart-line{
+  color: #563d7c;
+}
+.fa-handshake{
+  color: #e54d26;
+}
 
+.fa-dollar-sign, .fa-chart-line, .fa-handshake{
+  font-size: 4em;
+  margin: 1rem;
+}
 
+/* padding */
+.padding{
+  padding-bottom: 2rem;
+}
+
+/* dropdown */
+.fun{
+  background: none;
+  width: 100%;
+  height: 10%;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* social media */
+.social a{
+  font-size: 4.5em;
+  padding: 3rem;
+}
+  .fa-facebook{
+    color: #3b5998;
+  }
+  .fa-twitter{
+    color: #00aced;
+  }
+  .fa-instagram{
+    color: #517fa8;
+  }
+
+/* form */
+.form-row{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.form-check{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
@@ -46,7 +168,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url('/assets/img/house2.png');
   position: fixed;
   display: block;
   top: 0;
